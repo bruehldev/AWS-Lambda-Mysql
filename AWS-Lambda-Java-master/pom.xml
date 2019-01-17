@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>TvSeries</groupId>
+  <artifactId>AWS-Lambda-Java</artifactId>
+  <version>1.0</version>
+  <name>Amazon webservice lambda</name>
+  <description>Take id and download details, insert into rds db </description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.amazonaws</groupId>
+  		<artifactId>aws-lambda-java-core</artifactId>
+  		<version>1.0.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>mysql</groupId>
+  		<artifactId>mysql-connector-java</artifactId>
+  		<version>5.1.35</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-shade-plugin</artifactId>
+  		<version>2.3</version>
+  	</dependency>
+	  <dependency>
+		  <groupId>org.json</groupId>
+		  <artifactId>json</artifactId>
+		  <version>20180813</version>
+	  </dependency>
+  </dependencies>
+</project>
